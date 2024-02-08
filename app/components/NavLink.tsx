@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-// Define an interface for the props
+
 interface NavLinkProps {
   href: string;
   title: string;

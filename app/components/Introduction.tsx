@@ -2,12 +2,13 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import {SocialIcon} from 'react-social-icons';
 import { motion } from "framer-motion";
 import Link from "next/link";
 
 const Introduction = () => {
   return (
-    <section className="lg:py-16">
+    <section className="lg:py-12">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -15,7 +16,7 @@ const Introduction = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className=" mb-4 text-2xl sm:text-3xl lg:text-6xl lg:leading-normal font-extrabold">
+          <h1 className=" mb-4 text-2xl sm:text-3xl lg:text-5xl lg:leading-normal font-extrabold">
             <span className="bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               Hello, I&apos;m{" "}
             </span>
@@ -34,10 +35,20 @@ const Introduction = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-base sm:text-lg mb-6 lg:text-xl">
-          A dedicated and enthusiastic Master student in Computer Science at Santa Clara University, specializing in software development. 
+          <p className="text-base sm:text-md lg:text-lg">
+          A dedicated and enthusiastic Master&apos;s student in Computer Science at Santa Clara University, specializing in software development. 
           </p>
           <div>
+            <div className="inline-block">
+              <ul style={{ display: 'flex', listStyle: 'none', padding: 0, margin: 16}}>
+                <li className="hover:scale-110 transition-transform duration-150" style={{ marginRight: '10px' }}>
+                  <SocialIcon url="https://github.com/raphaeldu98" style={{ height: 40, width: 40 }}/>
+                </li>
+                <li className="hover:scale-110 transition-transform duration-150">
+                  <SocialIcon url="https://www.linkedin.com/in/chenyang-du-359913156/" style={{ height: 40, width: 40 }}/>
+                </li>
+              </ul>
+            </div>
             <a
                 href="/files/SDE.pdf" 
                 download="Chenyang_Du_Resume.pdf" 

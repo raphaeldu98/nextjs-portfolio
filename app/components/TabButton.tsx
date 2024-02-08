@@ -16,7 +16,7 @@ const variants = {
 const TabButton: React.FC<TabButtonProps> = ({ children, selectTab, active, className }) => {
   // Combining provided className with default styles and conditional active styles
   const buttonBaseClasses = "flex flex-col items-start transition duration-150 ease-in-out";
-  const textClasses = `${active ? "text-[#ADB7BE]" : "text-black"} font-semibold hover:text-[#ADB7BE]`;
+  const textClasses = `${"text-black"} font-semibold hover:text-blue-500`;
   const combinedButtonClasses = `${buttonBaseClasses} ${className ? className : ''}`;
   
   return (
@@ -31,7 +31,7 @@ const TabButton: React.FC<TabButtonProps> = ({ children, selectTab, active, clas
       <motion.div
         animate={active ? "active" : "default"}
         variants={variants}
-        className="h-1 bg-primary-500 mt-2"
+        className="h-1 bg-blue-500 mt-2"
       ></motion.div>
     </button>
   );
