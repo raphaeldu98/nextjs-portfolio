@@ -73,15 +73,6 @@ const TAB_DATA = [
       </ul>
     ),
   },
-  {
-    title: "Certifications",
-    id: "certifications",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Meta Back-End Developer</li>
-      </ul>
-    ),
-  },
 ];
 
 const AboutSection = () => {
