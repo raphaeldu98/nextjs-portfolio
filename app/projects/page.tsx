@@ -13,7 +13,7 @@ export default function Home() {
             <BackToTop />
             </div>
         </div>
-        {/* <Footer /> */}
+        <Footer />
       </main>
     );
   }
