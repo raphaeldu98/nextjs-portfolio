@@ -94,7 +94,7 @@ const ProjectsSection = () => {
   const renderDescription = (description: string) => {
     return description.split('\n\n').map((line, index) => (
 
-    <ul className="list-disc pl-2">
+    <ul key={index} className="list-disc pl-2">
       <li className="mb-4">
         {line}
       </li>
