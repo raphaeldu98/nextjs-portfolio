@@ -14,20 +14,20 @@ const Introduction = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
+          className="col-span-12 md:col-span-8 place-self-center text-center sm:text-left justify-self-start mr-4"
         >
           <h1 className=" mb-4 text-2xl sm:text-3xl lg:text-5xl lg:leading-normal font-extrabold">
             <span className="bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hello, I&apos;m{" "}
+              Hi! I&apos;m{" "}
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
                 "Chenyang Du",
                 1000,
-                "Web Developer",
+                "a Web Developer",
                 1000,
-                "Software Engineer",
+                "a Software Engineer",
                 1000,
               ]}
               wrapper="span"
@@ -36,8 +36,9 @@ const Introduction = () => {
             />
           </h1>
           <p className="text-base sm:text-md lg:text-lg">
-          A dedicated and enthusiastic Master&apos;s student in Computer Science at Santa Clara University, specializing in software development. 
+          A dedicated and enthusiastic Master&apos;s student in Computer Science at Santa Clara University, specializing in software engineering and full stack development.
           </p>
+          <p className="text-base sm:text-md lg:text-lg">Currently looking for summer Intern opportunities.</p>
           <div>
             <div className="inline-block">
               <ul style={{ display: 'flex', listStyle: 'none', padding: 0, margin: 16}}>
@@ -64,7 +65,7 @@ const Introduction = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-4 place-self-center mt-4 lg:mt-0"
+          className="col-span-12 md:col-span-4 place-self-center mt-4 lg:mt-0"
         >
           <div className="rounded-full bg-grey w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image

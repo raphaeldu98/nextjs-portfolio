@@ -96,12 +96,14 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col space-y-6">
           <h2 className="text-4xl font-bold text-cyan-600">About Me</h2>
           <p className="text-base lg:text-lg text-gray-600">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, GraphQL,
-            Sequelize, Django, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            I am a driven and passionate software engineer and fullstack developer. 
+            I have experience working with Java, JavaScript, React, Node.js, Express, GraphQL,
+            Python, Django and Git. I'm eager to collaborate with cutting-edge 
+            technologies and take on diverse projects to continually enhance my skills and 
+            expertise. Confident in my ability to tackle 
+            complex challenges, I bring a strong sense of problem-solving and 
+            adaptability to any team. With a track record of delivering high-quality 
+            software solutions, I'm ready to contribute effectively from day one.
           </p>
           <div className="flex space-x-4">
             {TAB_DATA.map((tabData) => (
