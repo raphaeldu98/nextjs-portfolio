@@ -98,12 +98,12 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg text-gray-600">
             I am a driven and passionate software engineer and fullstack developer. 
             I have experience working with Java, JavaScript, React, Node.js, Express, GraphQL,
-            Python, Django and Git. I'm eager to collaborate with cutting-edge 
+            Python, Django and Git. I&apos;m eager to collaborate with cutting-edge 
             technologies and take on diverse projects to continually enhance my skills and 
             expertise. Confident in my ability to tackle 
             complex challenges, I bring a strong sense of problem-solving and 
             adaptability to any team. With a track record of delivering high-quality 
-            software solutions, I'm ready to contribute effectively from day one.
+            software solutions, I&apos;m ready to contribute effectively from day one.
           </p>
           <div className="flex space-x-4">
             {TAB_DATA.map((tabData) => (
