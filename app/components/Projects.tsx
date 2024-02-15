@@ -92,11 +92,13 @@ const ProjectsSection = () => {
   };
 
   const renderDescription = (description: string) => {
-    return description.split('\n').map((line, index) => (
-      <span key={index}>
+    return description.split('\n\n').map((line, index) => (
+
+    <ul className="list-disc pl-2">
+      <li className="mb-4">
         {line}
-        <br />
-      </span>
+      </li>
+    </ul>
     ));
   };
 
