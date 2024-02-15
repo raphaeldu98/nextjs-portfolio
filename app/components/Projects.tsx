@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "React Portfolio Website",
-    description: "Build a responsive and customizable portfolio website using NextJs and Tailwind.",
+    description: "Built a responsive and customizable portfolio website using Next.js with Typescript and Tailwind CSS.",
     image: "/",
     tag: ["All", "Web"],
     gitUrl: "raphaeldu98/nextjs-portfolio",
@@ -25,6 +25,16 @@ const projectsData = [
   },
   {
     id: 3,
+    title:
+      "Estimating ground-level PM2.5 using micro-satellite images, meteorological and temporal information",
+    description:"Developed a novel Implicit Composite Kernel-Random Forest (ICK-RF) joint model that accurately predicts local PM2.5 air pollution hotspots at a 300 m resolution. It integrates diverse data sources, including daily high- resolution satellite imagery, meteorological conditions spatial, and temporal information, effectively incorporates seasonal variations and achieving significant accuracy improvements in PM2.5 prediction over existing methods.",
+    image: "",
+    tag: ["All", "ML"],
+    gitUrl: "/",
+    haveGithub: false,
+  },
+  {
+    id: 4,
     title: "Video Game Sharing platform",
     description: "Built a thriving user review and recommendation platform for video games, empowering players to find their next obsession. Fueled by the MERN stack, I crafted a dynamic full-stack web app for video game enthusiasts to connect, share, and discover.\n\n Built a RESTful API in Node.js with Express, seamlessly integrating with MongoDB to power data retrieval and storage. Designed dynamic user interface with React as the front-end and created custom hooks for state control between authorized and unauthorized modes.",
     image: "/",
@@ -33,23 +43,13 @@ const projectsData = [
     haveGithub: false,
   },
   {
-    id: 4,
+    id: 5,
     title: "Restaurant Management System API",
     description: "Architected and implemented REST APIs, leveraging the Django REST Framework, enabling a range of functions, including menu-item management, cart operations, and order processing. \n\n Orchestrated seamless integration with Django models, ensuring data consistency and timely updates within the MySQL database. \n\nImplemented various features such as authentication, search functionality, pagination, and API throttling for different users and use Insomnia to test and debug API.",
     image: "/",
     tag: ["All", "Web"],
-    gitUrl: "",
-    haveGithub: false,
-  },
-  {
-    id: 5,
-    title:
-      "Estimating ground-level PM2.5 using micro-satellite images, meteorological and temporal information",
-    description:"Designed an Implicit Composite Kernel-Random Forest (ICK-RF) model that predicts local PM2.5 hotspots at a 300 m resolution using satellite imagery, and meteorological, spatial, and temporal information.\n\nUtilized Convolutional Neural Network (CNN) to extract micro-satellite image features that characterize daily dynamic changes. Implemented a Random Forest (RF) regressor to estimate PM2.5 based on the extracted image features along with meteorological conditions and presented an Implicit Composite Kernel framework to incorporate seasonal information.",
-    image: "",
-    tag: ["All", "ML"],
-    gitUrl: "/",
-    haveGithub: false,
+    gitUrl: "raphaeldu98/LittleLemon",
+    haveGithub: true,
   },
   {
     id: 6,
@@ -95,7 +95,7 @@ const ProjectsSection = () => {
     return description.split('\n\n').map((line, index) => (
 
     <ul key={index} className="list-disc pl-2">
-      <li className="mb-4">
+      <li className="mt-4">
         {line}
       </li>
     </ul>
