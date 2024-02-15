@@ -36,12 +36,15 @@ const Introduction = () => {
             />
           </h1>
           <p className="text-base sm:text-md lg:text-lg">
-          A dedicated and enthusiastic Master&apos;s student in Computer Science at Santa Clara University, specializing in software engineering and full stack development.
+          A dedicated and enthusiastic Master&apos;s student in Computer Science at Santa Clara University, specializing in <span className="font-bold">Software Engineering</span> and <span className="font-bold">Full Stack Development</span>.
           </p>
-          <p className="text-base sm:text-md lg:text-lg">Currently looking for summer Intern opportunities.</p>
+          <p className="text-base sm:text-md lg:text-lg">Currently looking for Summer Intern opportunities.</p>
           <div>
             <div className="inline-block">
               <ul style={{ display: 'flex', listStyle: 'none', padding: 0, margin: 16}}>
+              <li className="hover:scale-110 transition-transform duration-150" style={{ marginRight: '10px' }}>
+                  <SocialIcon url="https://leetcode.com/raphaeldu98/" style={{ height: 40, width: 40 }}/>
+                </li>
                 <li className="hover:scale-110 transition-transform duration-150" style={{ marginRight: '10px' }}>
                   <SocialIcon url="https://github.com/raphaeldu98" style={{ height: 40, width: 40 }}/>
                 </li>
