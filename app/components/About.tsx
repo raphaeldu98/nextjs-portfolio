@@ -29,7 +29,7 @@ const TAB_DATA = [
     content: (
       <div>
         <p className="font-bold">-Language:</p>
-        <p>Java, JavaScript, C++, Python, HTML/CSS, SQL, R, Verilog</p>
+        <p>Java, JavaScript, C++, Python, HTML/CSS, SQL, GraphQL, R, Verilog</p>
         {/* <ul className="grid grid-cols-3 gap-2 pl-2 mb-2 ml-4">
           <li>Java</li>
           <li>JavaScript</li>
@@ -45,7 +45,7 @@ const TAB_DATA = [
           <li>Node.js</li>
         </ul> */}
         <p className="font-bold mt-4">-Databases & Tools:</p>
-        <p>Git, GitHub, MySQL, MongoDB, GraphQL, LaTeX</p>
+        <p>Git, GitHub, Shell, Docker, Linux, MySQL, MongoDB, LaTeX</p>
         {/* <ul className="grid grid-cols-3 gap-2 pl-2 mb-2 ml-4">
           <li>Git</li>
           <li>MySQL</li>
