@@ -65,6 +65,8 @@ const TAB_DATA = [
         <li>Operating Systems</li>
         <li>Computer Architecture</li>
         <li>Artificial Intelligence</li>
+        <li>Object Oriented Programming</li>
+        <li>Natural Language Processing</li>
         <li>Deep learning</li>
         <li>Machine learning</li>
         <li>Bayesian Statistical Modeling</li>
