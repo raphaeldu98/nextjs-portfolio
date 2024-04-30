@@ -54,7 +54,7 @@ const Introduction = () => {
               </ul>
             </div>
             <a
-                href="/files/SDE.pdf" 
+                href="/files/Resume.pdf" 
                 download="Chenyang_Du_Resume.pdf" 
                 className="inline-block py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
