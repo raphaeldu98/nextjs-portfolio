@@ -29,7 +29,7 @@ const projectsData = [
     description: "Developed and maintained a responsive, AI-driven accounting platform using the MERN stack and deployed through Netlify.\n\nImplemented microservices architecture using Node.js and Express, improving API response time by 25% and reducing server load by 30%. Using Agile and Scrum methodologies to streamline development and integration processes.\n\nIdentified and resolved user-reported bugs and performance issues, continuously improving site performance, and implementing iterative enhancements to ensure sustained user satisfaction and increased conversions.",
     image: "/",
     tag: ["All", "Web"],
-    gitUrl: "",
+    gitUrl: "https://app.datatrixs.com",
     haveGithub: false,
   },
   {
