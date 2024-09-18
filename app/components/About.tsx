@@ -29,30 +29,14 @@ const TAB_DATA = [
     content: (
       <div>
         <p className="font-bold">-Language:</p>
-        <p>Java, JavaScript, C++, Python, HTML/CSS, SQL, GraphQL, R, Verilog</p>
-        {/* <ul className="grid grid-cols-3 gap-2 pl-2 mb-2 ml-4">
-          <li>Java</li>
-          <li>JavaScript</li>
-          <li>C++</li>
-          <li>Python</li>
-        </ul> */}
+        {/* <p>Java, JavaScript, C++, Python, HTML/CSS, SQL, GraphQL, R, Verilog</p> */}
+        <p>JavaScript, TypeScript, Java, C++, Python, HTML/CSS, Ruby, SQL, GraphQL, R, Verilog</p>
         <p className="font-bold mt-4">-Frameworks:</p>
-        <p>Django, React, Tailwind CSS, Node.js, Next.js, Remix.js, PyTorch, Shopify Hydrogen</p>
-        {/* <ul className="grid grid-cols-3 gap-2 pl-2 mb-2 ml-4">
-          <li>React</li>
-          <li>Django</li>
-          <li>PyTorch</li>
-          <li>Node.js</li>
-        </ul> */}
+        {/* <p>Django, React, Tailwind CSS, Node.js, Next.js, Remix.js, PyTorch, Shopify Hydrogen</p> */}
+        <p>React, React Native, ThreeJS, ExpressJS, NextJS, RemixJS, Django, Flask, Springboot, Ruby on Rails</p>
         <p className="font-bold mt-4">-Databases & Tools:</p>
-        <p>Git, GitHub, Shell, Docker, Linux, MySQL, MongoDB, LaTeX</p>
-        {/* <ul className="grid grid-cols-3 gap-2 pl-2 mb-2 ml-4">
-          <li>Git</li>
-          <li>MySQL</li>
-          <li>MongoDB</li>
-          <li>GraphQL</li>
-          <li>LaTeX</li>
-        </ul> */}
+        {/* <p>Git, GitHub, Shell, Docker, Linux, MySQL, MongoDB, LaTeX</p> */}
+        <p>Git, GitHub, AWS, GCP, Docker, Linux, MySQL, MongoDB, LaTeX, Figma, Postman, Cypress</p>
       </div>
     ),
   },
@@ -61,6 +45,8 @@ const TAB_DATA = [
     id: "coursework",
     content: (
       <ul className="list-disc pl-2">
+        <li>Mobile Development</li>
+        <li>Advanced Web Development</li>
         <li>Design and Analysis Algorithms</li>
         <li>Operating Systems</li>
         <li>Computer Architecture</li>

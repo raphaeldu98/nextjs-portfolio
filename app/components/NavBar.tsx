@@ -14,10 +14,10 @@ const navLinks = [
     title: "About",
     path: "/#about",
   },
-  {
-    title: "Projects",
-    path: "projects",
-  },
+  // {
+  //   title: "Projects",
+  //   path: "projects",
+  // },
   {
     title: "Contact",
     path: "https://www.linkedin.com/in/chenyang-du-359913156/",
