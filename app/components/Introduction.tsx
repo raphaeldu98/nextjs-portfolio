@@ -38,7 +38,7 @@ const Introduction = () => {
           <p className="text-base sm:text-md lg:text-lg">
           A dedicated and enthusiastic Master&apos;s student in Computer Science at Santa Clara University, specializing in <span className="font-bold">Software Engineering</span> and <span className="font-bold">Full Stack Development</span>.
           </p>
-          <p className="text-base sm:text-md lg:text-lg">Currently looking for Summer Intern opportunities.</p>
+          <p className="text-base sm:text-md lg:text-lg">Currently looking for SDE Full time/Intern opportunities.</p>
           <div>
             <div className="inline-block">
               <ul style={{ display: 'flex', listStyle: 'none', padding: 0, margin: 16}}>
