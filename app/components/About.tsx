@@ -12,7 +12,7 @@ const TAB_DATA = [
         <li>
           <span className="font-bold">Santa Clara University</span> <br/>
           Master of Science in Computer Science<br/>
-          GPA: 4.0/4
+          GPA: 3.96/4
         </li>
         <br/>
         <li>
@@ -30,13 +30,13 @@ const TAB_DATA = [
       <div>
         <p className="font-bold">-Language:</p>
         {/* <p>Java, JavaScript, C++, Python, HTML/CSS, SQL, GraphQL, R, Verilog</p> */}
-        <p>JavaScript, TypeScript, Java, C++, Python, HTML/CSS, Ruby, SQL, GraphQL, R, Verilog</p>
+        <p>JavaScript, TypeScript, Java, Dart, Python, C/C++, HTML/CSS, Ruby, SQL, GraphQL, R, Verilog</p>
         <p className="font-bold mt-4">-Frameworks:</p>
         {/* <p>Django, React, Tailwind CSS, Node.js, Next.js, Remix.js, PyTorch, Shopify Hydrogen</p> */}
-        <p>React, React Native, ThreeJS, ExpressJS, NextJS, RemixJS, Django, Flask, Springboot, Ruby on Rails</p>
+        <p>React, React Native, ThreeJS, NextJS, RemixJS, Flutter, Django, Flask, Springboot, Ruby on Rails</p>
         <p className="font-bold mt-4">-Databases & Tools:</p>
         {/* <p>Git, GitHub, Shell, Docker, Linux, MySQL, MongoDB, LaTeX</p> */}
-        <p>Git, GitHub, AWS, GCP, Docker, Linux, MySQL, MongoDB, LaTeX, Figma, Postman, Cypress</p>
+        <p>Git, Jira, AWS, GCP, MySQL, MongoDB, PostgreSQL, Docker, Kubernetes, Figma, Postman, Cypress</p>
       </div>
     ),
   },
@@ -45,6 +45,7 @@ const TAB_DATA = [
     id: "coursework",
     content: (
       <ul className="list-disc pl-2">
+        <li>Image and Video Compression</li>
         <li>Mobile Development</li>
         <li>Advanced Web Development</li>
         <li>Design and Analysis Algorithms</li>
