@@ -25,9 +25,9 @@ const Introduction = () => {
               sequence={[
                 "Chenyang Du",
                 1000,
-                "a Web Developer",
-                1000,
                 "a Software Engineer",
+                1000,
+                "a Full Stack Developer",
                 1000,
               ]}
               wrapper="span"

@@ -29,13 +29,10 @@ const TAB_DATA = [
     content: (
       <div>
         <p className="font-bold">-Language:</p>
-        {/* <p>Java, JavaScript, C++, Python, HTML/CSS, SQL, GraphQL, R, Verilog</p> */}
         <p>JavaScript, TypeScript, Java, Dart, Python, C/C++, HTML/CSS, Ruby, SQL, GraphQL, R, Verilog</p>
         <p className="font-bold mt-4">-Frameworks:</p>
-        {/* <p>Django, React, Tailwind CSS, Node.js, Next.js, Remix.js, PyTorch, Shopify Hydrogen</p> */}
         <p>React, React Native, ThreeJS, NextJS, RemixJS, Flutter, Django, Flask, Springboot, Ruby on Rails</p>
         <p className="font-bold mt-4">-Databases & Tools:</p>
-        {/* <p>Git, GitHub, Shell, Docker, Linux, MySQL, MongoDB, LaTeX</p> */}
         <p>Git, Jira, AWS, GCP, MySQL, MongoDB, PostgreSQL, Docker, Kubernetes, Figma, Postman, Cypress</p>
       </div>
     ),
@@ -62,6 +59,84 @@ const TAB_DATA = [
       </ul>
     ),
   },
+  {
+    title: "Work Experience",
+    id: "work-experience",
+    content: (
+      <div className="space-y-6">
+        <div>
+          <p className="font-bold">Promaxo</p>
+          <p>Jun 2024 – Sep 2024 (Summer Intern), Sep 2024 – Present (Coop)</p>
+          <p className="italic">Software Engineer Intern/Coop | Oakland, CA</p>
+          <ul className="list-disc pl-6">
+            <li>
+              Designed and built features for an innovative <strong>medical imaging platform and case management system</strong> which reduced image processing time by <strong>30%</strong> and improved the efficiency of managing patient information by <strong>25%</strong>.
+            </li>
+            <li>
+              Integrated <strong>Google Cloud Healthcare</strong> to ensure <strong>HIPAA-compliant</strong> storage and secure transmission of patient data, significantly enhancing security and confidentiality. Developed and deployed <strong>AWS Lambda functions</strong> to automate the extraction and processing of <strong>DICOM</strong> image data, enabling the machine learning team to access and analyze healthcare datasets in real-time.
+            </li>
+            <li>
+              Collaborated with <strong>cross-functional teams</strong> (software, imaging, product, data science, and clinical) to gather requirements and ensure the development process remained on track. Implemented features using <strong>React, Node.js, Express, MongoDB, and GCP</strong>.
+            </li>
+            <li>
+              Developed a scalable test framework using <strong>TDD</strong>, increasing test coverage to <strong>80%</strong> across unit, integration, and end-to-end tests with <strong>Cypress</strong>. Leveraged <strong>OOD principles</strong> to minimize redundant code and streamline the testing process, improving development efficiency.
+            </li>
+            <li>
+              Enhanced the <strong>CI/CD</strong> pipeline, integrating <strong>automated testing, npm audits, secret scans, and SonarCloud checks</strong>, reducing deployment time by <strong>20%</strong> and ensuring high code quality.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p className="font-bold">Lenovo</p>
+          <p>May 2024 – Dec 2024</p>
+          <p className="italic">Software Engineer Intern | Remote</p>
+          <ul className="list-disc pl-6">
+            <li>
+              Developed an immersive <strong>3D collaborative workplace application</strong> using <strong>Three.js, Vue, and Socket.IO</strong>, implementing <strong>DragControls</strong> and <strong>TransformControls</strong> to let users intuitively manipulate objects on the shared canvas, with control over position, rotation, and scaling. Achieved accurate synchronization across clients for a cohesive experience.
+            </li>
+            <li>
+              Built a robust commenting feature using <strong>Express</strong> and a <strong>microservices architecture</strong>, enabling real-time collaboration with enhanced fault tolerance and maintainability. Optimized performance, reducing response time for key user actions by <strong>25%</strong>.
+            </li>
+            <li>
+              Developed <strong>environment switching</strong> and <strong>synchronized camera views</strong>, enhancing collaborative workflows and ensuring a cohesive user experience by enabling seamless context switching with visual continuity.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p className="font-bold">Datatrixs</p>
+          <p>Mar 2024 – Jun 2024</p>
+          <p className="italic">Software Engineer Intern | San Francisco, CA</p>
+          <ul className="list-disc pl-6">
+            <li>
+              <strong>Led a team</strong> to utilize the <strong>MERN stack</strong> to build a full-stack application with a serverless architecture that empowers CPAs by automating their workflow with data visualization tools.
+            </li>
+            <li>
+              Attended <strong>investors&apos; sync meetings</strong>, improved site performance and user satisfaction based on client feedback, and designed and implemented tab and AI chart generation features, resulting in a <strong>50%</strong> increase in follow-on investment.
+            </li>
+            <li>
+              Reconstructed the <strong>MongoDB schema</strong> and token-based authentication flow, optimizing data transmission and sharing, directly contributing to <strong>2 new companies&apos; investments</strong>.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p className="font-bold">Cooledtured Collections</p>
+          <p>Nov 2023 – Mar 2024</p>
+          <p className="italic">Full Stack Web Developer Intern | Burbank, CA</p>
+          <ul className="list-disc pl-6">
+            <li>
+              Contributed to migrating Cooledtured&apos;s storefront from Shopify&apos;s front-end to a React-based custom headless e-commerce stack <strong>(Shopify Hydrogen + Remix.js)</strong>, enhancing scalability, performance, and faster page load times.
+            </li>
+            <li>
+              Developed the website using <strong>React</strong> with <strong>TypeScript</strong> and <strong>Tailwind</strong> in collaboration with UI/UX teams.
+            </li>
+            <li>
+              Implemented a robust <strong>GraphQL-based</strong> search engine with predictive search and product recommendations, resulting in increased session duration, user engagement, a <strong>15%</strong> boost in product discovery, and a <strong>10%</strong> rise in sales conversions.
+            </li>
+          </ul>
+        </div>
+      </div>
+    ),
+  },
 ];
 
 const AboutSection = () => {
@@ -78,13 +153,21 @@ const AboutSection = () => {
 
   return (
     <section className="text-gray-800 bg-gray-50" id="about">
-      <div className="container mx-auto px-4 py-12 md:grid md:grid-cols-2 gap-8 items-start xl:gap-16">
-        <div className="mt-20 w-full h-96 relative rounded-lg overflow-hidden shadow-lg">
-          <Image src="/images/about.png" layout="fill" objectFit="cover" alt="" />
+      <div className="flex flex-col md:flex-row gap-8 items-center">
+        <div className="w-full md:w-1/2 h-auto">
+          <Image 
+            src="/images/about.png" 
+            layout="responsive" 
+            width={500} 
+            height={400} 
+            objectFit="cover" 
+            alt="About me"
+            className="rounded-lg shadow-lg"
+          />
         </div>
-        <div className="mt-4 md:mt-0 text-left flex flex-col space-y-6">
+        <div className="w-full md:w-1/2">
           <h2 className="text-4xl font-bold text-cyan-600">About Me</h2>
-          <p className="text-base lg:text-lg text-gray-600">
+          <p className="text-base lg:text-lg text-gray-600 mt-2">
             I am a driven and passionate software engineer and fullstack developer. 
             I have experience working with Java, JavaScript, React, Node.js, Express, GraphQL,
             Python, Django and Git. I&apos;m eager to collaborate with cutting-edge 
@@ -94,7 +177,7 @@ const AboutSection = () => {
             adaptability to any team. With a track record of delivering high-quality 
             software solutions, I&apos;m ready to contribute effectively from day one.
           </p>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 mt-4">
             {TAB_DATA.map((tabData) => (
                 <TabButton
                   key={tabData.id}
@@ -106,7 +189,10 @@ const AboutSection = () => {
                 </TabButton>
               ))}
           </div>
-          <div className="bg-white shadow rounded-lg p-6">
+          <div
+            className="bg-white shadow rounded-lg p-6 mt-4"
+            style={{ height: "400px", overflowY: "auto" }}
+          >
             {currentTabContent}
           </div>
         </div>
