@@ -9,7 +9,9 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-[#ffffff]">
       <NavBar />
       <div className="container mt-24 mx-auto px-12 py-4">
-        <Introduction />
+        <div className="mb-6">
+          <Introduction />
+        </div>
         <About />
         <div className="sticky top-0 z-20">
           <BackToTop />

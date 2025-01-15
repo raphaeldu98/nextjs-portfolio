@@ -38,29 +38,7 @@ const TAB_DATA = [
     ),
   },
   {
-    title: "Cousework",
-    id: "coursework",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Image and Video Compression</li>
-        <li>Mobile Development</li>
-        <li>Advanced Web Development</li>
-        <li>Design and Analysis Algorithms</li>
-        <li>Operating Systems</li>
-        <li>Computer Architecture</li>
-        <li>Artificial Intelligence</li>
-        <li>Object Oriented Programming</li>
-        <li>Natural Language Processing</li>
-        <li>Deep learning</li>
-        <li>Machine learning</li>
-        <li>Bayesian Statistical Modeling</li>
-        <li>Risk and Resilience Engineering</li>
-        <li className="font-bold rounded">Still passionate learning more ......</li>
-      </ul>
-    ),
-  },
-  {
-    title: "Work Experience",
+    title: "Experience",
     id: "work-experience",
     content: (
       <div className="space-y-6">
@@ -137,6 +115,28 @@ const TAB_DATA = [
       </div>
     ),
   },
+  {
+    title: "Cousework",
+    id: "coursework",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>Image and Video Compression</li>
+        <li>Mobile Development</li>
+        <li>Advanced Web Development</li>
+        <li>Design and Analysis Algorithms</li>
+        <li>Operating Systems</li>
+        <li>Computer Architecture</li>
+        <li>Artificial Intelligence</li>
+        <li>Object Oriented Programming</li>
+        <li>Natural Language Processing</li>
+        <li>Deep learning</li>
+        <li>Machine learning</li>
+        <li>Bayesian Statistical Modeling</li>
+        <li>Risk and Resilience Engineering</li>
+        <li className="font-bold rounded">Still passionate learning more ......</li>
+      </ul>
+    ),
+  },
 ];
 
 const AboutSection = () => {
@@ -168,16 +168,17 @@ const AboutSection = () => {
         <div className="w-full md:w-1/2">
           <h2 className="text-4xl font-bold text-cyan-600">About Me</h2>
           <p className="text-base lg:text-lg text-gray-600 mt-2">
-            I am a driven and passionate software engineer and fullstack developer. 
-            I have experience working with Java, JavaScript, React, Node.js, Express, GraphQL,
-            Python, Django and Git. I&apos;m eager to collaborate with cutting-edge 
+            I am a driven and passionate <strong>software engineer</strong> and <strong>fullstack developer</strong>. 
+            I have experience working with <strong>JavaScript, Java, MERN stack, Django</strong>, and a wide range 
+            of tools and frameworks. I&apos;m eager to collaborate with cutting-edge 
             technologies and take on diverse projects to continually enhance my skills and 
-            expertise. Confident in my ability to tackle 
-            complex challenges, I bring a strong sense of problem-solving and 
-            adaptability to any team. With a track record of delivering high-quality 
-            software solutions, I&apos;m ready to contribute effectively from day one.
+            expertise. Confident in my ability to tackle complex challenges, I bring a 
+            strong sense of problem-solving and adaptability to any team. 
+            My goal is to contribute to meaningful projects that challenge me to grow 
+            while making a tangible impact. <strong>Let&apos;s connect and create something 
+            remarkable together!</strong>
           </p>
-          <div className="flex space-x-4 mt-4">
+          <div className="flex space-x-4 mt-4" style={{overflowX: "auto" }}>
             {TAB_DATA.map((tabData) => (
                 <TabButton
                   key={tabData.id}
